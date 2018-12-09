@@ -1,0 +1,38 @@
+{
+  "name": "md2xlsx",
+  "version": "0.0.1",
+  "description": "Convert markdown table to xlsx file",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claude-Ray/md2xlsx.git"
+  },
+  "keywords": [
+    "xlsx",
+    "markdown",
+    "table",
+    "excel",
+    "markdown"
+  ],
+  "author": "claude-ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Claude-Ray/md2xlsx/issues"
+  },
+  "homepage": "https://github.com/Claude-Ray/md2xlsx#readme",
+  "dependencies": {
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
