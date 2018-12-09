@@ -6,7 +6,7 @@ Convert markdown table to xlsx file
 ## Usage
 
 ```js
-const md2xlsx = require('md2xlsx);
+const md2xlsx = require('md2xlsx');
 md2xlsx('./test/test.md', { extname: 'xls' });
 ```
 
