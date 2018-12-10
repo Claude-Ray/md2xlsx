@@ -8,7 +8,7 @@ describe('xlsx', () => {
   describe('parser', () => {
     it('write file', () => {
       md2xlsx('./test/fixtures/hello.md');
-      const xlsxObj = xlsx.readFile('./test.xlsx');
+      const xlsxObj = xlsx.readFile('./hello.xlsx');
       const sheet = xlsxObj.Sheets.Sheet1;
       assert.deepStrictEqual(sheet, sheetObj);
     });
