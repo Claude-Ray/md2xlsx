@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "nyc mocha",
-    "test-cov": "nyc report --reporter=text-lcov > coverage.lcov"
+    "test-cov": "nyc report --reporter=text-lcov > coverage.lcov",
+    "test-ci": "npm run test && npm run test-cov"
   },
   "repository": {
     "type": "git",
