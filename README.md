@@ -1,7 +1,13 @@
 # md2xlsx
 [![Build Status](https://travis-ci.org/Claude-Ray/md2xlsx.svg?branch=master)](https://travis-ci.org/Claude-Ray/md2xlsx)
+[![codecov](https://codecov.io/gh/Claude-Ray/md2xlsx/branch/master/graph/badge.svg)](https://codecov.io/gh/Claude-Ray/md2xlsx)
 
 Convert markdown table to xlsx file
+
+## Install
+```sh
+npm install md2xlsx
+```
 
 ## Usage
 
